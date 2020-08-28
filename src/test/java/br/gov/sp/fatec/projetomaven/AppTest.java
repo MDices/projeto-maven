@@ -14,9 +14,12 @@ public class AppTest
      * Rigourous Test :-)
      */
    @Test
-	public void testSoma()
+	public void testCalculadora()
     {
        calculadora calc = new calculadora(); 
-	   assertTrue(calc.soma() == 2);
+	   assertTrue(calc.soma(1, 1) == 2);
+	   assertTrue(calc.subtracao(1, 1) == 0);
+	   assertTrue(calc.multiplicacao(1, 1) == 1);
+	   assertTrue(calc.divisao(1, 1) == 1);
     }
 }
