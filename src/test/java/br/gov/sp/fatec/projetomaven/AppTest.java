@@ -10,9 +10,7 @@ public class AppTest
     
 {
    
-    /**
-     * Rigourous Test :-)
-     */
+    
    @Test
 	public void testSoma()
     {
@@ -24,7 +22,7 @@ public class AppTest
    public void testSub()
    {
       calculadora calc = new calculadora(); 
-	   assertTrue(calc.subtracao(1, 1) == 0);
+	   assertTrue(calc.subtracao(1, 1) == 1);
    }
    @Test
    public void testMulti()
